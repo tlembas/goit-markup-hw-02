@@ -1,0 +1,219 @@
+/* Defined site colors */
+:root {
+    --blue-color: #2196f3;
+    --light-blue-color: #188ce8;
+    --black-color: #212121;
+    --gray-color: #757575;
+    --light-gray-color: #f5f4fa;
+    --white-color: #ffffff;
+    --dark-background: #2f303a;
+    --light-background: #f5f4fa;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+   }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline; }
+
+html {
+    line-height: 1; }
+
+ol, ul {
+    list-style: none; }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+    
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+q, blockquote {
+    quotes: none; 
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none;
+}
+
+a img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block; 
+}
+
+body, p, a, input, button, h1, h2, h3, h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4 {
+    color: var(--black-color);
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+p {
+    color: var(--gray-color);
+}
+
+ul.menu li a,
+div.address address p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+div.address address p {
+    color: var(--white-color);
+}
+
+div.logo a h1 {
+    color: var(--black-color);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+div.logo a h1 span.logo-color {
+    color: var(--blue-color);
+}
+
+ul.menu li a {
+    color: var(--black-color);
+}
+
+ul.menu li a:focus, 
+ul.menu li a:hover {
+    color: var(--light-blue-color);
+}
+
+div.address address a.email {
+    color: var(--gray-color);
+}
+
+div.address address a.email:focus,
+div.address address a.email:hover {
+    color: var(--blue-color);
+}
+
+div.address address a.phone {
+    color: var(--gray-color);
+}
+
+h1.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+button {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+button:focus,
+button:hover {
+    background-color: var(--light-blue-color);
+}
+
+div.feature h4 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+div.feature p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+div.team-member h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+div.team-member p {
+    font-size: 16px;
+    line-height: 19px; 
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+ul.portfolio-menu-items li a{
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: var(--light-background);
+    border-radius: 4px;
+}
+
+ul.portfolio-menu-items li a:focus, 
+ul.portfolio-menu-items li a:hover {
+    color: var(--light-blue-color);
+}
+
+div.single-work h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+div.single-work p {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
